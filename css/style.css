@@ -1,0 +1,37 @@
+*{
+  position: relative;
+}
+html,body{
+    background-color: #1F5C89;
+}
+a{
+  text-decoration: none;
+}
+.btn{
+  color:#fff;
+  position: absolute;
+  top:65%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding: 12px 48px;
+  border-radius: 48px;
+  border: 2px solid #fff;
+  transition: 0.3s all;
+  animation: appear 3s linear;
+}
+@keyframes appear {
+  0%{
+    opacity: 0;
+  }
+  80%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%;
+  }
+
+}
+.btn:hover{
+  background-color: #fff;
+  color:#1F5C89;
+}
